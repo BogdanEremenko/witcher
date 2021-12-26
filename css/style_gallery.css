@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+body{
+    font-size: 24px;
+    background-image: url(../img/musicBack.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: url('../img/cursor.png'), default;
+}
+.wrapper{
+    width: 1300px;
+    margin: 0 auto; 
+}
+.logo{
+    width: 50%;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 29px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: brown;
+}
+.nav-link:hover{
+    color: #5a0212;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.welcome{
+    border-radius: 10px;
+    opacity: 0.6;
+    background-color: white;
+    margin-top: 160px;
+}
+.header{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 23;
+    text-align: center;
+    margin-top: 40px;
+}
+.text-p{
+    margin: 20px;
+    text-align: justify;
+}
+.section-gallery{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.gallery-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery-items{
+    display: flex;
+}
+.gallery-items-second{
+    display: flex;
+}
+.picture{
+    width: 350px;
+    padding: 5px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
